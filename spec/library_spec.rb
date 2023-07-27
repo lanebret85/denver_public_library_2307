@@ -58,7 +58,7 @@ RSpec.describe Library do
 
       dpl.add_author(charlotte_bronte)
 
-      expect(publication_time_frame_for(charlotte_bronte)).to eq({start: "1847", end: "1857"})
+      expect(dpl.publication_time_frame_for(charlotte_bronte)).to eq({start: "1847", end: "1857"})
     end
   end
 end
