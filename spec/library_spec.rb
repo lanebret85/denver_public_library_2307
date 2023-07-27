@@ -153,7 +153,7 @@ RSpec.describe Library do
       dpl.checkout(villette)
       dpl.checkout(mockingbird)
 
-      expect(dpl.most_popular_book).to eq("There is a tie")
+      expect(dpl.most_popular_book).to eq("There is a tie between 3 books")
     end
 
     it "can return the book that has been checked out most often" do
