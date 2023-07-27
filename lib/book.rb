@@ -1,8 +1,5 @@
 class Book
-  attr_reader :author_first_name,
-              :author_last_name,
-              :title,
-              :publication_date,
+  attr_reader :title,
               :author,
               :publication_year
 
