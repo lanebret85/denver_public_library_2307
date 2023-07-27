@@ -1,5 +1,6 @@
 require './lib/library'
 require './lib/author'
+require './lib/book'
 
 RSpec.describe Library do
   describe "initialize" do
